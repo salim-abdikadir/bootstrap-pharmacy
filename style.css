@@ -1,0 +1,16 @@
+.doctor {
+  width: 40%;
+}
+.card-laptop {
+  font-size: 70px !important;
+  align-self: self-end;
+}
+
+.card-img-top {
+  width: 30% !important;
+}
+@media (max-width: 763px) {
+  .card-img-top {
+    width: 80px !important;
+  }
+}
