@@ -17,87 +17,76 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-success navbar-dark p-3">
-      <div class="container">
-        <a href="#" class="navbar-brand">Pharmacy</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Prices</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Medicine</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contact us</a></li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="" class="nav-link"><i class="bi bi-lock"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link"><i class="bi bi-search"></i></a>
-            </li>
-            <li class="nav-item ps-lg-3">
-              <a href="" class="btn btn-outline-light">login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- hero -->
-    <section class="bg-success p-5 p-lg-0 text-lg-start text-center">
-      <div class="container">
-        <div class="d-lg-flex align-items-center justify-content-between">
-          <div class="text-light">
-            <h1 class="text-black">Get your medicine</h1>
-            <h1 class="text-black">delivered 24/7</h1>
-            <p class="lead my-lg-4">
-              get up to 20% off what you order from this site with lots of
-              dicounts
-            </p>
-            <button class="px-lg-5 btn btn-outline-light btn-lg">
-              Buy now
-            </button>
+    <header>
+      <nav class="navbar navbar-expand-md bg-success p-3">
+        <div class="container">
+          <a href="#" class="navbar-brand">Pharmacy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Prices</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Medicine</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="bi bi-lock"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item ps-md-3">
+                <a href="" class="btn btn-outline-success">login</a>
+              </li>
+            </ul>
           </div>
-          <img
-            src="./img/doctorbrand.png"
-            class="img-fluid doctor d-none d-lg-block align-self-end"
-          />
         </div>
-      </div>
-    </section>
+      </nav>
+      <!-- hero -->
+      <section id="hero" class="bg-success p-5 p-lg-0 text-lg-start text-center">
+        <div class="container">
+          <div class="d-lg-flex align-items-center justify-content-between">
+            <div>
+              <h1 class="text-black">Get your medicine</h1>
+              <h1 class="text-black">delivered 24/7</h1>
+              <p class="lead my-lg-4">
+                get up to 20% off what you order from this site with lots of
+                dicounts
+              </p>
+              <button class="px-lg-5 btn btn-outline-success btn-lg">
+                Buy now
+              </button>
+            </div>
+            <img
+              src="./img/doctorbrand.png"
+              class="img-fluid doctor d-none d-lg-block align-self-end"
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- services -->
     <section class="p-5">
       <div class="container">
         <h2 class="text-center fw-bold mb-4">Best deals for you</h2>
         <div class="row gx-md-5 gy-3 gy-lg-0">
           <div class="col-md-6 col-xl-3">
-            <div class="card mb-xl-0 mb-4 rounded-4">
-              <div class="card-body p-4">
-                <h4 class="card-title">instant video consultation</h4>
-                <p class="card-text">
-                  connect with 60 plus doctors from over the world
-                </p>
-                <div class="d-flex justify-content-between align-items-end">
-                  <a href="#"
-                    ><i class="bi bi-arrow-right-circle-fill text-dark fs-1"></i
-                  ></a>
-                  <i class="bi bi-laptop fs-1 card-laptop"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xl-3">
-            <div class="card mb-xl-0 mb-4 rounded-4">
+            <div class="card mb-xl-0 mb-4 rounded-4 bg-baige">
               <div class="card-body p-4">
                 <h4 class="card-title">instant video consultation</h4>
                 <p class="card-text w-50">
@@ -107,13 +96,31 @@
                   <a href="#"
                     ><i class="bi bi-arrow-right-circle-fill text-dark fs-1"></i
                   ></a>
-                  <i class="bi bi-prescription2 fs-1 card-laptop"></i>
+                  <i class="bi bi-laptop fs-1 card-laptop text-secondary"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-xl-3">
-            <div class="card mb-xl-0 mb-4 rounded-4">
+            <div class="card mb-xl-0 mb-4 rounded-4 bg-baige-red">
+              <div class="card-body p-4">
+                <h4 class="card-title">instant video consultation</h4>
+                <p class="card-text w-50">
+                  connect with 60 plus doctors from over the world
+                </p>
+                <div class="d-flex justify-content-between align-items-end">
+                  <a href="#"
+                    ><i class="bi bi-arrow-right-circle-fill text-dark fs-1"></i
+                  ></a>
+                  <i
+                    class="bi bi-prescription2 fs-1 card-laptop text-secondary"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card mb-xl-0 mb-4 rounded-4 bg-baige-blue">
               <div class="card-body p-4">
                 <h4 class="card-title">instant video consultation</h4>
                 <p class="card-text w-50">
@@ -129,7 +136,7 @@
             </div>
           </div>
           <div class="col-md-6 col-xl-3">
-            <div class="card mb-xl-0 mb-4 rounded-4">
+            <div class="card mb-xl-0 mb-4 rounded-4 bg-baige-blue">
               <div class="card-body p-4">
                 <h4 class="card-title">instant video consultation</h4>
                 <p class="card-text w-50">
